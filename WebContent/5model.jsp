@@ -25,8 +25,8 @@
 
 <body>
 	<!-- The ng-model Directive -->
-	<!--
-	<div ng-app="myApp" ng-controller="myCtrl">
+	
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 		Name: <input ng-model="name">
 	</div>
 	<script type="text/javascript">
@@ -53,10 +53,13 @@
 	    Email:
 	    <input type="email" name="myAddress" ng-model="text">
 	    <span ng-show="myForm.myAddress.$error.email">Not a valid e-mail address</span>
-	</form> -->
+	    Number phone:
+	    <input type="text" name="phone" ng-model="phone">
+	    <span ng-show="myForm.phone.$error.number">Not a valid number phone</span>
+	</form>	 -->
 
 	<!-- Application Status -->
-	<!-- <form ng-app="" name="myForm" ng-init="myText = 'post@myweb.com'">
+	<!-- <form ng-app="" name="myForm" ng-init="myText='post@myweb.com'">
 	    Email:
 	    <input type="email" name="myAddress" ng-model="myText" required>
 	    <p>Edit the e-mail address, and it will try to change the status.</p>
@@ -67,10 +70,10 @@
 	</form> -->
 
 	<!-- CSS Classes: Khi input a text into input tag, thi css will duoc bien mat. -->
-	<form ng-app="" name="myForm">
+	<!-- <form ng-app="" name="myForm">
 	    Enter your name:
 	    <input name="myName" ng-model="myText" required>
-	</form>
+	</form> -->
 	<!-- CSS"
 	<style>
 			input.ng-invalid {

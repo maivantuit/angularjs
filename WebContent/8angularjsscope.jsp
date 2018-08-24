@@ -28,7 +28,7 @@
 		});
 	</script> -->
 	<!-- Understanding the Scope -->
-	<!-- <div ng-app="myApp" ng-controller="myCtrl">
+	 <div ng-app="myApp" ng-controller="myCtrl">
 		<input ng-model="name"/>
 		<h1>My name is {{name}}</h1>
 	</div>

@@ -69,7 +69,7 @@
 	<!--
 		1. Khi click vao name thi lable change from Tu-> Cop.
 	-->
-	<div ng-app="myApp" ng-controller="myCtrl">
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
     <h1 ng-click="changeName()">{{name}}</h1>
 	</div>
 
@@ -81,6 +81,6 @@
 		        $scope.name = "Cop";
 		    }
 		});
-	</script>
+	</script> -->
 </body>
 </html>

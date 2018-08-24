@@ -21,8 +21,8 @@
 
 <body>
 	<!-- AngularJS Example -->
-	<!--
-	<div ng-app="myApp" ng-controller="myCtrl">
+	
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 		First Name: <input type="text" ng-model="firstName" />
 		Last Name: <input type="text" ng-model="lastName" />
 		<br>
@@ -37,8 +37,8 @@
 	</script> -->
 
 	<!-- Controller Methods -->
-	<!--
-	<div ng-app="myApp" ng-controller="myCtrl">
+	
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 		First Name: <input type="text" ng-model="firstName" />
 		Last Name: <input type="text" ng-model="lastName" />
 		<br>
@@ -67,7 +67,7 @@
 	<script src="personController.js"></script> -->
 
 	<!-- Another Example -->
-	<div ng-app="myApp" ng-controller="namesCtrl">
+	<!-- <div ng-app="myApp" ng-controller="namesCtrl">
 		<ul>
 			<li ng-repeat=" item in names">{{item.name+', '+item.country}}</li>
 		</ul>
@@ -80,7 +80,7 @@
 		        {name:'Kai',country:'Denmark'}
 			];
 		});
-	</script>
+	</script> -->
 	<!--
 	Result:
 	Jani, Norway
