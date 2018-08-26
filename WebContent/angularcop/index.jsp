@@ -12,17 +12,32 @@
 <script src="app.js"></script>
 </head>
 <body ng-app="myModule">
-	<div ng-controller="myController">
+	<!-- 1 -->
+	<!-- <div ng-controller="myController">
 		<input type="text" ng-model="mes"/>
 		<br>
 		Display: {{mes}}
-		<br>
-		Display: {{name}}		
+		
 		<div>
 			<ul ng-repeat="item in emp">
 				<li>{{item.id+','+ item.name}}</li>
 			</ul>
 		</div>
+		<button ng-click="sayHello()"></button>
+		<br>
+		Display: {{name}}	
+	</div> -->
+	<!-- 2,3 -->
+	<!-- <div ng-controller="classController">		
+		Display: {{name}}	
+	</div>
+	<div ng-controller="schoolController">
+		Display: {{name}}	
+	</div> -->
+	<div ng-controller="parenController">
+		<div ng-controller="classController">Display: {{name}}</div>
+		<div ng-controller="schoolController">Display: {{name}}</div>
+		Display: {{name}}
 	</div>
 </body>
 </html>
