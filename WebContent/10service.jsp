@@ -20,7 +20,7 @@
 
 <body>
 	<!-- What is a Service? -->
-	<!-- <div ng-app="myApp" ng-controller="myCtrl">
+<!-- 	<div ng-app="myApp" ng-controller="myCtrl">
 		<p>The url of this page is:</p>
 		<h3>{{myUrl}}</h3>
 		The url of this page is:
@@ -35,17 +35,17 @@
 	</script> -->
 
 	<!-- The $http Service -->
-	<!-- <div ng-app="myApp" ng-controller="myCtrl">
+<!-- 	<div ng-app="myApp" ng-controller="myCtrl">
 		<p>Today's welcome message is:</p>
 		<h1>{{myWelcome}}</h1>
 	</div>
 	<p>The $http service requests a page on the server, and the response is set as the value of the "myWelcome" variable.</p>
 	<script type="text/javascript">
-	var app = angular.module('myApp', []);
-	app.controller('myCtrl', function($scope, $http) {
-	  $http.get("welcome.htm").then(function (response) {
-	      $scope.myWelcome = response.data;
-	  });
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope, $http) {
+		  $http.get("welcome.htm").then(function (response) {
+		      $scope.myWelcome = response.data;
+		  });
 	});
 	</script> -->
 

@@ -28,7 +28,7 @@
 		});
 	</script> -->
 	<!-- Understanding the Scope -->
-	 <div ng-app="myApp" ng-controller="myCtrl">
+	 <!--<div ng-app="myApp" ng-controller="myCtrl">
 		<input ng-model="name"/>
 		<h1>My name is {{name}}</h1>
 	</div>
@@ -56,7 +56,7 @@
 	Linus
 	-->
 	<!-- Root Scope: Have body:<body ng-app="myApp"> -->
-	<p>The rootScope's favorite color:</p>
+	<!-- <p>The rootScope's favorite color:</p>
 	<h1>{{color}}</h1>
 
 	<div ng-controller="myCtrl">
@@ -75,7 +75,7 @@
 		app.controller('myCtrl',function($scope){
 			$scope.color='red';
 		});
-	</script>
+	</script> -->
 	<!-- Result
 		The rootScope's favorite color:
 

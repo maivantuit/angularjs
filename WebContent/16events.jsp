@@ -56,14 +56,30 @@
 	202 -->
 
 	<!-- The ng-click Directive: Khi click vao button thi bien count tang len 1 -->
-	<!-- <div ng-app="myApp" ng-controller="myCtrl">
-	<button ng-click="count = count + 1">Click me!</button>
-	<p>{{ count }}</p>
+	<!-- <div ng-app="myApp">
+		<div  ng-controller="myCtrl">
+		<button ng-click="count = count + 1">Click me!</button>
+		<p>{{ count }}</p>
+		</div>
+		<div ng-controller="myCtrl2">
+		<button ng-click="count2 = count2 + 1">Click me2!</button>
+		<p>{{ count2 }}</p>
+		</div>
+		<div ng-controller="myCtrl3">
+		<button ng-mousemove="count3 = count3 + 1">Move me3!</button>
+		<p>{{ count3 }}</p>
+		</div>
 	</div>
 	<script>
 		var app = angular.module('myApp', []);
 		app.controller('myCtrl', function($scope) {
 		    $scope.count = 0;
+		});
+		app.controller('myCtrl2', function($scope) {
+		    $scope.count2 = 10;
+		});
+		app.controller('myCtrl3', function($scope) {
+		    $scope.count3 = 100;
 		});
 	</script> -->
 	<!-- You can also refer to a function: -->
@@ -103,7 +119,7 @@
 	</script> -->
 
 	<!-- $event Object:You can pass the $event object as an argument when calling the function. -->
-	<div ng-app="myApp" ng-controller="myCtrl">
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 		<h1 ng-mousemove="myFunc($event)">Mouse Over Me!</h1>
 		<p>Coordinates: {{x + ', ' + y}}</p>
 	</div>
@@ -116,6 +132,6 @@
 		        $scope.y = myE.clientY;
 		    }
 		});
-	</script>
+	</script> -->
 </body>
 </html>

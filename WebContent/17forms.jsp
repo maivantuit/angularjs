@@ -51,26 +51,25 @@
 	<!-- Radiobuttons: use switch -->
 	<!-- <div ng-app="">
 		<form>
-	  Pick a topic:
-	  <input type="radio" ng-model="myVar" value="dogs">Dogs
-	  <input type="radio" ng-model="myVar" value="tuts">Tutorials
-	  <input type="radio" ng-model="myVar" value="cars">Cars
-	</form>
+			Pick a topic: <input type="radio" ng-model="myVar" value="dogs">Dogs
+			<input type="radio" ng-model="myVar" value="tuts">Tutorials <input
+				type="radio" ng-model="myVar" value="cars">Cars
+		</form>
 
-	<div ng-switch="myVar">
-	  <div ng-switch-when="dogs">
-	     <h1>Dogs</h1>
-	     <p>Welcome to a world of dogs.</p>
-	  </div>
-	  <div ng-switch-when="tuts">
-	     <h1>Tutorials</h1>
-	     <p>Learn from examples.</p>
-	  </div>
-	  <div ng-switch-when="cars">
-	     <h1>Cars</h1>
-	     <p>Read about cars.</p>
-	  </div>
-	</div>
+		<div ng-switch="myVar">
+			<div ng-switch-when="dogs">
+				<h1>Dogs</h1>
+				<p>Welcome to a world of dogs.</p>
+			</div>
+			<div ng-switch-when="tuts">
+				<h1>Tutorials</h1>
+				<p>Learn from examples.</p>
+			</div>
+			<div ng-switch-when="cars">
+				<h1>Cars</h1>
+				<p>Read about cars.</p>
+			</div>
+		</div>
 	</div> -->
 
 	<!-- Selectbox -->
@@ -106,7 +105,7 @@
 	</div> -->
 
 	<!-- An AngularJS Form Example -->
-	<div ng-app="myApp" ng-controller="formCtrl">
+	<!-- <div ng-app="myApp" ng-controller="formCtrl">
 	  <form novalidate>
 	    First Name:<br>
 	    <input type="text" ng-model="user.firstName"><br>
@@ -127,6 +126,6 @@
 		    };
 		    $scope.reset();
 		});
-	</script>
+	</script> -->
 </body>
 </html>

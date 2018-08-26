@@ -109,10 +109,10 @@
 	Ví dụ: Trên máy chủ, chúng tôi có một tệp trả về đối tượng JSON chứa 15 khách hàng, tất cả được bao bọc trong mảng được gọi records.
 
 	 -->
-	<div ng-app="myApp" ng-controller="customersCtrl">
+	<!-- <div ng-app="myApp" ng-controller="customersCtrl">
 		<ul>
 		  <li ng-repeat="x in myData">
-		    {{ x.Name + ', ' + x.Country }} <!-- Mai Van Tu, VietNam Hani, USA -->
+		    {{ x.Name + ', ' + x.Country }} Mai Van Tu, VietNam Hani, USA
 		  </li>
 		</ul>
 	</div>
@@ -121,12 +121,15 @@
 		app.controller('customersCtrl',function($scope){
 			$scope.myData = [
 				{Name:'Mai Van Tu', Country:'VietNam'},
-				{Name:'Hani', Country:'USA'}
+				{Name:'Hani', Country:'USA'},
+				{Name:'Jame', Country:'USA'},
+				{Name:'Ronaldo', Country:'USA'},
+				{Name:'Như', Country:'USA'}
 			];
 
 		});
-	</script>
-	<script>
+	</script> -->
+	<!-- <script>
 		var app = angular.module('myApp', []);
 		app.controller('customersCtrl', function($scope, $http) {
 		    $http.get("customers.php").then(function(response) {
@@ -136,7 +139,7 @@
 		/*
 		1. $http is an XMLHttpRequest object for requesting external data.
 		2. $http.get() reads JSON data from https://www.w3schools.com/angular/customers.php. */
-	</script>
+	</script> -->
 
 </body>
 </html>

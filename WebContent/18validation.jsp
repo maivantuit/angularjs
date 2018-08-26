@@ -62,7 +62,7 @@
 			</p>
 			<p>Address:
 				<input name="myAddress" ng-model="myAddress" required>
-				<span ng-show="myForm.myAddress.$touched && myForm.myAddress.$invalid">The name is required.</span>
+				<span ng-show="myForm.myAddress.$touched && myForm.myAddress.$invalid">The Address is required.</span>
 			</p>
 		</form>
 	</div> -->
@@ -134,7 +134,7 @@
 	</script> -->
 
 	<!-- Validation Example -->
-	<div>
+	<!-- <div>
 		<h2>Validation Example</h2>
 
 		<form ng-app="myApp" ng-controller="validateCtrl" name="myForm" novalidate>
@@ -167,6 +167,6 @@
 		    $scope.user = 'Mai Van Tu';
 		    $scope.email = 'maivantu@gmail.com';
 		});
-	</script>
+	</script> -->
 </body>
 </html>

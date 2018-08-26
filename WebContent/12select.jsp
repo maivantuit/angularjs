@@ -17,8 +17,8 @@
 
 <body>
 	<!-- Creating a Select Box Using ng-options: ket qua cho 1 combobox gom cac data duoi -->
-	<!-- 
-	<div ng-app="myApp" ng-controller="myCtrl"> 		
+	
+	<!-- <div ng-app="myApp" ng-controller="myCtrl"> 		
 		<select ng-model="selectedName" ng-options="item for item in names">		
 		</select>
 	</div>
@@ -29,8 +29,8 @@
 		});
 	</script> -->
 	<!-- ng-options vs ng-repeat:ket qua cho 1 combobox gom cac data duoi -->
-	<!-- 
-	<div ng-app="myApp" ng-controller="myCtrl">
+	
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 		<select>
 		<option ng-repeat="x in names">{{x}}</option>
 		</select>
@@ -103,7 +103,7 @@
 	    }
 	});
 	</script> -->
-	<div ng-app="myApp" ng-controller="myCtrl">
+	<!-- <div ng-app="myApp" ng-controller="myCtrl">
 
 	<p>Select a car:</p>
 	
@@ -126,6 +126,6 @@
 		        car03 : {brand : "Volvo", model : "XC90", color : "black"}
 		    }
 		});
-	</script>
+	</script> -->
 </body>
 </html>

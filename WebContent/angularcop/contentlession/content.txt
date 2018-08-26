@@ -1,0 +1,24 @@
+Bài 2: Khái niệm Module và Controller
+	1. Module:
+		+ Module: là 1 contrainer cho các thành phần khác nhau của ứng dụng như filters, controllers, servies, directives,...
+		+ Bạn tưởng tượng một module như một hàm main của các loại ứng dụng khác.
+		+ Cách tạo module: Sử dụng phương thức module() của đối tượng angular để tạo một module.
+	2. Controller:
+		+ Trong angular thì controller là 1 hàm js. Tác dụng của nó là xây dựng lên model để cho view hiển thị.
+
+Bài 4: Biến $scope và $rootScope
+	1. $scope là gì:
+		+ là một đối tượng có nhiệm vụ giao tiếp dữ liệu giữa controller và view.
+		Scope chứa thông tin là các dữ liệu model, bao gồm các thuộc tính và method.
+		+ Trong controller, dữ liệu model có thể truy cập qua đối tượng $scope.
+	2. Bản chất:
+		+ View: lớp code HTML
+		+ Model: là dữ liệu ứng dụng trên View
+		+ Controller: là các hàm js có khả năng tạo/change/del/control data.
+	3. 
+		+ Trong 1 ứng dụng có thể có nhiều controller và nhiều $scope khác nhau.
+		+ Khi một controller được sử dụng ngoài view, angular sẽ tạo 1 thể hiện của 1 controller đồng thời cũng tạo 1 biến scope cho controller đó.
+	4. $rootScope
+		+ Biến rootScope là 1 biến tổng quát bao hàm toàn bộ các controller của ứng dụng.
+		+ Tất cả các ứng dụng đều có 1 $roorScope, nó được tạo khi khai báo 1 phần tử html có thuộc tính là ng-app.
+		+ $rootscope = $scope(Ctrl1) + $scope(Ctrl2)+...

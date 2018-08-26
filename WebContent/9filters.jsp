@@ -24,8 +24,8 @@
 
 <body>
 	<!-- Adding Filters to Expressions:Filters can be added to expressions by using the pipe character "|" -->
-	<!--
-	<div ng-app="myApp" ng-controller="personCtrl">
+	
+	<!-- <div ng-app="myApp" ng-controller="personCtrl">
 		<p>The name is {{ firstName | lowercase }}</p>
 		<p>The name is {{ lastName | uppercase }}</p>
 	</div>
@@ -36,27 +36,27 @@
 		});
 	</script> -->
 	<!-- Adding Filters to Directives -->
-	<!-- div ng-app="myApp" ng-controller="namesCtrl">
+	<!-- <div ng-app="myApp" ng-controller="namesCtrl">
 		<ul>
-			<li ng-repeat="item in names | orderBy:'country'">{{item.name + ', ' + item.country}}</li>
+			<li ng-repeat="item in names | orderBy:'id'">{{ item.id+', '+item.name + ', ' + item.country}}</li>
 		</ul>
 	</div>
 	<script type="text/javascript">
 		angular.module('myApp',[]).controller('namesCtrl',function($scope){
 			 $scope.names = [
-			        {name:'Jani',country:'Norway'},
-			        {name:'Carl',country:'Sweden'},
-			        {name:'Margareth',country:'England'},
-			        {name:'Hege',country:'Norway'},
-			        {name:'Joe',country:'Denmark'},
-			        {name:'Gustav',country:'Sweden'},
-			        {name:'Birgit',country:'Denmark'},
-			        {name:'Mary',country:'England'},
-			        {name:'Kai',country:'Norway'}
+			        {id:'1',name:'Jani',country:'Norway'},
+			        {id:'3',name:'Carl',country:'Sweden'},
+			        {id:'2',name:'Margareth',country:'England'},
+			        {id:'5',name:'Hege',country:'Norway'},
+			        {id:'4',name:'Joe',country:'Denmark'},
+			        {id:'8',name:'Gustav',country:'Sweden'},
+			        {id:'9',name:'Birgit',country:'Denmark'},
+			        {id:'6',name:'Mary',country:'England'},
+			        {id:'7',name:'Kai',country:'Norway'}
 			        ];
 		});
-	</script>
-	 RESULT:
+	</script> -->
+	<!--  RESULT:
 	Joe, Denmark
 	Birgit, Denmark
 	Margareth, England
@@ -65,8 +65,8 @@
 	Hege, Norway
 	Kai, Norway
 	Carl, Sweden
-	Gustav, Sweden
-	 -->
+	Gustav, Sweden -->
+	
 
 	 <!-- The currency Filter -->
 	 <!-- <div ng-app="myApp" ng-controller="costCtrl">

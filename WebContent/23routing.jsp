@@ -53,10 +53,11 @@
 
 
 	<!-- Controllers -->
-		<p><a href="#/!">Main</a></p>
+		<p><a href="#!/">Main</a></p>
 
 		<a href="#!london">City 1</a>
 		<a href="#!paris">City 2</a>
+		<a href="#!losangeles">City 3</a>
 
 		<p>Click on the links.</p>
 	 <div ng-view></div>
@@ -66,21 +67,32 @@
 		    $routeProvider
 		    .when("/", {
 		        templateUrl : "main.htm",
+		        controller : "mainCtrl"
 		    })
 		    .when("/london", {
 		        templateUrl : "london.htm",
 		        controller : "londonCtrl"
+		    })
+		    .when("/losangeles", {
+		        templateUrl : "losangeles.htm",
+		        controller : "losangelesCtrl"
 		    })
 		    .when("/paris", {
 		        templateUrl : "paris.htm",
 		        controller : "parisCtrl"
 		    });
 		});
+		app.controller("mainCtrl", function ($scope) {
+		    $scope.msg = "Welcome to Main";
+		});
 		app.controller("londonCtrl", function ($scope) {
 		    $scope.msg = "I love London";
 		});
 		app.controller("parisCtrl", function ($scope) {
 		    $scope.msg = "I love Paris";
+		});
+		app.controller("losangelesCtrl", function ($scope) {
+		    $scope.msg = "I love Los Angeles";
 		});
 
 	</script>
