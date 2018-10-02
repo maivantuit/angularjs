@@ -16,19 +16,23 @@
 
 <body>
 	<!-- AngularJS $http -->
-	<!-- <div ng-app="myApp" ng-controller="myCtrl">
+	<div ng-app="myApp" ng-controller="myCtrl">
 		<p>Today's welcome message is:</p>
-		<h1>{{myWelcome}}</h1>
+		<h1>{{myWelcome.login}}</h1> 
+		<button ng-click="getValue()" >OK</button>
 	</div>
 	<script>
 		var app = angular.module('myApp', []);
 		app.controller('myCtrl', function($scope, $http) {
-		    $http.get("welcome.htm")
-		    .then(function(response) {
-		        $scope.myWelcome = response.data;
-		    });
+			$scope.getValue = function(){
+				$http.get("https://api.github.com/users")
+			    .then(function(response) {
+			        $scope.myWelcome = response.data;
+			        console.log($scope.myWelcome.map(function(item) {console.log(item)}));
+			    });	
+			}		    
 		});
-	</script> -->
+	</script>
 
 
 	<!-- Methods -->
